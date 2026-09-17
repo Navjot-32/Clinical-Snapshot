@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* A single light theme. Clinical displays are read in bright rooms, and one
+   predictable palette is safer than two half-checked ones. */
+body {
+  background: #f6f7f9;
+  color: #14181f;
+}
