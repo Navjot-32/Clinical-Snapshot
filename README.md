@@ -63,7 +63,7 @@ cd backend
 ./.venv/bin/python -m pytest tests/ -q
 ```
 
-The suite contains 116 tests covering normalization, date precision, status handling,
+The suite contains 120 tests covering normalization, date precision, status handling,
 reconciliation, unresolved references, withholding rules, and the API contract.
 
 Verify the frontend production build with:
